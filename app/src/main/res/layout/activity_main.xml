@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:padding="40dp"/>
+
+    <Button
+        android:id="@+id/spotify_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Spotify Streamer"
+        android:onClick="makeToast"/>
+    <Button
+        android:id="@+id/scores_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Scores App"
+        android:onClick="makeToast"/>
+    <Button
+        android:id="@+id/library_app_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Library App"
+        android:onClick="makeToast"/>
+    <Button
+        android:id="@+id/build_bigger_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Build it bigger"
+        android:onClick="makeToast"/>
+    <Button
+        android:id="@+id/xyz_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="XYZ reader"
+        android:onClick="makeToast"/>
+    <Button style="@style/Base.TextAppearance.AppCompat"
+        android:id="@+id/capstone_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Capstone: My Own App"
+        android:onClick="makeToast"/>
+
+</LinearLayout>
